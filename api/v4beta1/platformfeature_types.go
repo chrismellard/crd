@@ -39,7 +39,8 @@ type PlatformFeatureStatus struct {
 }
 
 // +kubebuilder:object:root=true
-// +k8s:openapi-gen=true
+// +k8s:openapi-gen=false
+// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 // PlatformFeature is the Schema for the platformfeatures API
 type PlatformFeature struct {
 	metav1.TypeMeta   `json:",inline"`
