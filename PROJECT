@@ -1,0 +1,7 @@
+domain: jenkins-x.io
+repo: github.com/chrismellard/crd
+resources:
+- group: jx
+  kind: PlatformFeature
+  version: v4beta1
+version: "2"

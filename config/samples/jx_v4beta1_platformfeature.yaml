@@ -1,0 +1,7 @@
+apiVersion: jx.jenkins-x.io/v4beta1
+kind: PlatformFeature
+metadata:
+  name: platformfeature-sample
+spec:
+  # Add fields here
+  foo: bar
